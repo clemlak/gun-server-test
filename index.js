@@ -11,6 +11,6 @@ const gun = Gun({
   web: server,
 });
 
-app.get('/test', (res, req) => {
+app.get('/test', (req, res) => {
   res.send('Yay!');
 });
