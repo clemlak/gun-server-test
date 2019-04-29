@@ -10,3 +10,7 @@ const gun = Gun({
   file: 'data',
   web: server,
 });
+
+app.get('/test', (res, req) => {
+  res.send('Yay!');
+});
